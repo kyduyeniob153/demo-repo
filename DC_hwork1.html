@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Research</title>
+  </head>
+  <body>
+    <h1>Market Research Survey</h1>
+    <p>Please take a few momments to completes this satisfaction survey</p>
+    <form action="">
+      <h3>What is your range?</h3>
+      <input type="number" name="age" max="24" min="18" />
+      <h3>What is your yearly income range?</h3>
+      <input type="number" name="cost" max="$25,000" min="$0" />
+      <h3>Gender</h3>
+      <input type="checkbox" id="male" name="male" />
+      <label for="male">Male</label><br />
+      <input type="checkbox" id="female" name="female" />
+      <label for="female">Female</label>
+      <br />
+      <h3>
+        Which of the following products have your purchased in the last 2
+        months. Please check all that apply.
+      </h3>
+      <input type="checkbox" name="prd1" value="Product 1" />Product 1 <br />
+      <input type="checkbox" name="prd2" value="Product 2" />Product 2 <br />
+      <input type="checkbox" name="prd3" value="Product 3" />Product 3 <br />
+      <h3>How often would you use our new product?</h3>
+      <input type="checkbox" />Daily <br />
+      <input type="checkbox" />Weekly <br />
+      <input type="checkbox" />Monthly <br />
+      <h3>What would you pay for the new product?</h3>
+      <br />
+      <label for="">$</label>
+      <input placeholder="Dollars" type="text" />
+      <label for="">.</label>
+      <input placeholder="Cents" type="text"/>
+      <h3>What features would you like to see in the new product?</h3>
+      <textarea name="feel" id="feel" cols="30" rows="10"></textarea>
+
+      <h3>Please rate your level of agreement with the folowing statements.</h3>
+      <table border="1">
+        <tr>
+          <th></th>
+          <th>Strongly Disagree</th>
+          <th>Disagree</th>
+          <th>Agree</th>
+          <th>Strongly Agree</th>
+        </tr>
+        <tr>
+          <th>Our products are priced fairly</th>
+          <td><input type="checkbox" />1</td>
+          <td><input type="checkbox" />2</td>
+          <td><input type="checkbox" />3</td>
+          <td><input type="checkbox" />4</td>
+        </tr>
+        <tr>
+          <th>Uor products are high quality</th>
+          <td><input type="checkbox" />1</td>
+          <td><input type="checkbox" />2</td>
+          <td><input type="checkbox" />3</td>
+          <td><input type="checkbox" />4</td>
+        </tr>
+        <tr>
+          <th>Youu would recommend our product to a frtend or coworker</th>
+          <td><input type="checkbox" />1</td>
+          <td><input type="checkbox" />2</td>
+          <td><input type="checkbox" />3</td>
+          <td><input type="checkbox" />4</td>
+        </tr>
+        <br />
+        
+      </table>
+    </form>
+    <br>
+    <input type="submit" value="Submit" />
+
+  </body>
+</html>
